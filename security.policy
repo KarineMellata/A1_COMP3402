@@ -1,0 +1,7 @@
+grant {
+	permission java.net.SocketPermission "*:1024-65535", "connect,accept";
+	permission java.net.SocketPermission "*:80", "connect";
+	permission java.io.FilePermission "/Users/karinemellata/Documents/eclipe-wspace2/A1/OnlineUser", "read,write";
+	permission java.io.FilePermission "/Users/karinemellata/Documents/eclipe-wspace2/A1/UserInfo", "read,write";
+};
+
